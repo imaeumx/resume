@@ -2,11 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import profile from './assets/images/profile.jpg';
 
 function Header() {
   return (
     <div className="header">
-      <img src="\src\images\profile.jpg" alt="Profile" className="profile-pic" />
+      <img src={profile} alt="Profile" className="profile-pic" />
       <h1>Alizah Henson</h1>
     </div>
   );
