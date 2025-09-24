@@ -6,7 +6,7 @@ import './App.css'
 function Header() {
   return (
     <div className="header">
-      <img src="\public\images\profile.jpg" alt="Profile" className="profile-pic" />
+      <img src="\src\images\profile.jpg" alt="Profile" className="profile-pic" />
       <h1>Alizah Henson</h1>
     </div>
   );
